@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Docker bootcamp</title>
+  </head>
+  
+  <body>
+    <font face="verdana" color="blue">
+    <h1>Docker introduction</h1>
+    </font>
+
+  <br>
+  <font face="verdana">
+  <h3>Create new record:</h3>
+  <form action="http://localhost:8081/user" method="POST">
+    Name: <input type="text" name="name"><br>
+    Phone: <input type="text" name="phone"><br>
+    <input type="submit" value="Save the record">
+  </form>
+  <br>
+
+  <h3>Display users (<a href="http://localhost:8081/user" target="iframe_a">Click to update</a>)</h3>
+  </font>
+  
+  <iframe src="http://localhost:8081/user" name"iframe_a" height="200" width="500" scrolling="yes"></iframe>
+  
+  </body>
+</html>
